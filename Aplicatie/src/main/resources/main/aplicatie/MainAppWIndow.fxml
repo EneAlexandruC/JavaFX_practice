@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.aplicatie.MainAppController">
+   <children>
+      <Pane layoutX="46.0" layoutY="84.0" prefHeight="286.0" prefWidth="508.0">
+         <children>
+            <RadioButton fx:id="option1" layoutX="43.0" layoutY="119.0" mnemonicParsing="false" text="RadioButton" />
+            <RadioButton fx:id="option2" layoutX="43.0" layoutY="168.0" mnemonicParsing="false" text="RadioButton" />
+            <RadioButton fx:id="option3" layoutX="43.0" layoutY="214.0" mnemonicParsing="false" text="RadioButton" />
+            <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="75.0" text="Label" />
+            <ProgressBar fx:id="progressBar" layoutX="43.0" layoutY="14.0" prefHeight="18.0" prefWidth="434.0" progress="0.0" />
+            <Button fx:id="submitButton" layoutX="423.0" layoutY="247.0" mnemonicParsing="false" onAction="#onSubmitButtonPress" text="Submit" />
+         </children>
+      </Pane>
+      <Label fx:id="questionNO" layoutX="207.0" layoutY="37.0" text="Intrebarea NR: 1">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

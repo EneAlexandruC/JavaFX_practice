@@ -1,0 +1,5 @@
+Care este capitala Franței?:Paris:Luvru:Eiffel
+Care este cel mai lung râu din lume?:Nilul:Dunarea:Volga
+În ce continent se află Australia?:Oceania:Europa:Asia
+Care este cel mai mare ocean al lumii?:Oceanul Pacific:Oceanul Indian:Oceanul Arctic
+Care este capitala Japoniei?:Tokyo:Kyoto:Osaka

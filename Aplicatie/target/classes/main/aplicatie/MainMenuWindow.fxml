@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.aplicatie.MainMenuController">
+   <RadioButton fx:id="easyButton" layoutX="68.0" layoutY="183.0" mnemonicParsing="false" text="Usor"/>
+   <RadioButton fx:id="hardButton" layoutX="213.0" layoutY="183.0" mnemonicParsing="false" prefHeight="17.0"
+                prefWidth="55.0" text="Greu"/>
+   <RadioButton fx:id="HistoryButton" layoutX="353.0" layoutY="166.0" mnemonicParsing="false" text="Istorie"/>
+   <RadioButton fx:id="GeographyButton" layoutX="353.0" layoutY="200.0" mnemonicParsing="false" text="Geografie"/>
+   <RadioButton fx:id="VideoGamesButton" layoutX="353.0" layoutY="232.0" mnemonicParsing="false" text="Jocuri video"/>
+   <Separator layoutX="298.0" layoutY="14.0" orientation="VERTICAL" prefHeight="303.0" prefWidth="5.0"/>
+   <Label layoutX="75.0" layoutY="66.0" text="Alege dificultatea">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Label>
+   <Label layoutX="354.0" layoutY="66.0" text="Alege domeniul">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Label>
+   <Button onAction="#onStartButtonClick" layoutX="267.0" layoutY="340.0" mnemonicParsing="false" text="Start">
+      <font>
+         <Font size="18.0"/>
+      </font>
+   </Button>
+</AnchorPane>
